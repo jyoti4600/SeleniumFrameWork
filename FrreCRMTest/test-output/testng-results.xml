@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106700" started-at="2020-01-06T10:44:08Z" finished-at="2020-01-06T10:45:55Z">
+    <groups>
+      <group name="functional">
+        <method signature="TasksPageTest.selectTasksTest()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="selectTasksTest" class="com.crm.qa.tests.TasksPageTest"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="TasksPageTest.verifyTasksPage()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="verifyTasksPage" class="com.crm.qa.tests.TasksPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="106700" started-at="2020-01-06T10:44:08Z" finished-at="2020-01-06T10:45:55Z">
+      <class name="com.crm.qa.tests.TasksPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="56775" started-at="2020-01-06T10:44:09Z" finished-at="2020-01-06T10:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectTasksTest()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="selectTasksTest" duration-ms="1103" started-at="2020-01-06T10:45:05Z" finished-at="2020-01-06T10:45:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTasksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="732" started-at="2020-01-06T10:45:06Z" finished-at="2020-01-06T10:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="46301" started-at="2020-01-06T10:45:07Z" finished-at="2020-01-06T10:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTasksPage()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="verifyTasksPage" duration-ms="1074" started-at="2020-01-06T10:45:53Z" finished-at="2020-01-06T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTasksPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.tests.TasksPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="679" started-at="2020-01-06T10:45:55Z" finished-at="2020-01-06T10:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.tests.TasksPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
